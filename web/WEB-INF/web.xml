@@ -39,4 +39,29 @@
         <url-pattern>/testjsp</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>SetCookiesServlet</servlet-name>
+        <servlet-class>SetCookiesServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SetCookiesServlet</servlet-name>
+        <url-pattern>/setcook</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>GetCookiesServlet</servlet-name>
+        <servlet-class>GetCookiesServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GetCookiesServlet</servlet-name>
+        <url-pattern>/getcook</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>DeleteCookiesServlet</servlet-name>
+        <servlet-class>DeleteCookiesServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeleteCookiesServlet</servlet-name>
+        <url-pattern>/delcook</url-pattern>
+    </servlet-mapping>
+
 </web-app>
