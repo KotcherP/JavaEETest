@@ -64,4 +64,13 @@
         <url-pattern>/delcook</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>LibraryServlet</servlet-name>
+        <servlet-class>LibraryServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LibraryServlet</servlet-name>
+        <url-pattern>/lib</url-pattern>
+    </servlet-mapping>
+
 </web-app>
